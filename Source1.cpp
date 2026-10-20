@@ -11,6 +11,8 @@ int main() {
 			cout << "3. cerrar tablero" << endl;
 
 			cin >> opciones_tablero;
+			cout << "funciona" << endl;
+
 
 
 
