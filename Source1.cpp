@@ -24,15 +24,26 @@ int main() {
 				cout << "ingrese producto" << endl;
 				cin.ignore();
 			    getline(cin, producto);
-				cout << "ingrese precio" << endl;
-				cin >> precio;
-				subtotal = subtotal + descuento;
-				cout << "Subtotal: " << subtotal << endl;
+
+				if (producto == "") {
+					cout << "Debe ingresar un producto" << endl;
+				}
+				else {
+					cout << "ingrese precio" << endl;
+					cin >> precio;
+					if (precio <= 0) {
+						cout << "precio invalido" << endl;
+					}
+					else {
+						subtotal = subtotal + descuento;
+						cout << "Subtotal: " << subtotal << endl;
+					}
+				}
 
 				if (opciones_tablero == 3) {
 					break;
 				}
-
+					
 			}
 			if (opciones_tablero < 1) {
 				cout << "opcion no valida" << endl;
