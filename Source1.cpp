@@ -57,6 +57,11 @@
 							precio2 = precio;
 							cantidad_productos = cantidad_productos + 1;
 						}
+						else if (cantidad_productos == 2) {
+							producto3 = producto;
+							precio3 = precio;
+							cantidad_productos = cantidad_productos + 1;
+						}
 
 
 						subtotal = subtotal + precio;
