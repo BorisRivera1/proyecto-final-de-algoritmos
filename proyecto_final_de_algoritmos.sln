@@ -1,9 +1,16 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 18
-VisualStudioVersion = 18.8.12009.203 stable
+VisualStudioVersion = 18.8.12009.203
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "proyecto_final_de_algoritmos", "proyecto_final_de_algoritmos.vcxproj", "{2EED0BB4-6BE5-9610-B2EF-E6E7C43EE424}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Elementos de la solución", "Elementos de la solución", "{A3B7E310-DD75-47A1-8F79-9D7314BF731D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DOCS67", "DOCS67", "{12E18728-579D-445A-9523-59DB0A179936}"
+	ProjectSection(SolutionItems) = preProject
+		PSEUDOCODIGO.md = PSEUDOCODIGO.md
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

@@ -1,0 +1,14 @@
+{
+    "version": 1,
+    "revision": 0,
+    "rules": [
+        {
+            "primary-output": "proyecto.2EED0BB4\\x64\\Debug\\tienda la bendicion.obj",
+            "outputs": [
+                "proyecto.2EED0BB4\\x64\\Debug\\tienda la bendicion.cpp.obj.dt.module.json",
+                "proyecto.2EED0BB4\\x64\\Debug\\tienda la bendicion.cpp.obj.dt.d.json"
+            ],
+            "requires": []
+        }
+    ]
+}
