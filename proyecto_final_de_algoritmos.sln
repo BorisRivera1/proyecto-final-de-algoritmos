@@ -10,6 +10,7 @@ EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DOCS67", "DOCS67", "{12E18728-579D-445A-9523-59DB0A179936}"
 	ProjectSection(SolutionItems) = preProject
 		PSEUDOCODIGO.md = PSEUDOCODIGO.md
+		README.md = README.md
 	EndProjectSection
 EndProject
 Global
